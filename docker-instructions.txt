@@ -1,0 +1,15 @@
+#this will build the containers from scratch
+docker-compose up --build
+
+#will up the containers and run in the background
+docker-compose up -d
+
+#see which containrs are running
+docker ps
+
+#to stop the containers
+docker-compose stop
+
+#to inspect a container (container name will be located when you run docker ps)
+docker inspect container_name
+
